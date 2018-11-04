@@ -234,10 +234,7 @@ def print_rows(df):
 
     # check if there are more rows left to print
     while row_no<len(df):
-        chunk = get_rows(df,row_no,chunk_len)
-        print(chunk.loc[:])     # prints records as a table
-        # for ix in chunk.index:    # prints record values with 
-        #     print(chunk.loc[ix])  #       columnnames as a series
+        print(get_rows(df,row_no,chunk_len).loc[:])     # prints records as a table
         row_no += chunk_len
     
     # ask to display more rows or inform that the end of the dataset has been reached
