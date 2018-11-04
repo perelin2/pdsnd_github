@@ -3,14 +3,17 @@ Include the date you created this project and README file.
 Date created: Sunday, November 4, 2018
 
 ### Project Title
-Replace the Project Title
+Bikeshare by Diana Colombo
 
 ### Description
-Describe what your project is about and what it does
+Data from bikeshare Company in New York, Washington and Chicago are being
+statistically analyized.
 
 ### Files used
-Include the files used
+my_bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This is my first contact with numpy and pandas.
+Thanks to the pandas tutorial at andas.pydata.org and many stackoverflow.com posts
+I was able to complete the project an pass the test.
 
