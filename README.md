@@ -8,6 +8,7 @@ Bikeshare by Diana Colombo
 ### Description
 Data from bikeshare Company in New York, Washington and Chicago are being
 statistically analyzed.
+The data can be filtered by city, month and day of the week.
 
 ### Files used
 my_bikeshare.py
