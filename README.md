@@ -7,10 +7,16 @@ Bikeshare by Diana Colombo
 
 ### Description
 Data from bikeshare Company in New York, Washington and Chicago are being
-statistically analyized.
+statistically analyzed.
+The data can be filtered by city, month and day of the week.
 
 ### Files used
 my_bikeshare.py
+readme.txt
+chicago.csv (not in repo)
+washington.csv (not in repo)
+new_york_city.csv (not in repo)
+
 
 ### Credits
 This is my first contact with numpy and pandas.

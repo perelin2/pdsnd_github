@@ -210,7 +210,15 @@ def user_stats(df):
 
 
 def get_rows(df,start_row,number_of_rows):
-    ''' returns number_of_rows from dataframe starting with start_row'''
+    ''' 
+    Args:
+    (pandas.dataframe) df - dataframe to extract rows from
+    (int) start_row - first row index of the data chunk to return
+    (int) number_of_rows - length of the data chunk
+
+    Returns:
+    (pandas.dataframe) number_of_rows from df starting with start_row
+    '''
 
     end_row=start_row+number_of_rows
     if end_row>len(df):
